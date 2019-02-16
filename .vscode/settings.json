@@ -1,0 +1,15 @@
+{
+
+    "python.pythonPath": ".pyvenv\\Scripts\\python.exe",
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".pyvenv": true,
+        "**/__pycache__": true,
+        "db.sqlite3": true,
+    }
+}
