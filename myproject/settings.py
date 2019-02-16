@@ -25,13 +25,14 @@ SECRET_KEY = '5%y$ti406x+d5h6720@l*m#9+i#q34r$jmi2j+3_ab70hz&7yb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    ".example.com",
-    ".prototype.com",
-    'localhost', 
-    '127.0.0.1', 
-    '[::1]',
-]
+ALLOWED_HOSTS = []
+
+if DEBUG:
+    ALLOWED_HOSTS += [
+        'localhost', 
+        '127.0.0.1', 
+        '[::1]',
+    ]
 
 
 # Application definition
@@ -53,7 +54,7 @@ INSTALLED_APPS = [
 ]
 
 # SITE_ID = 1
-SITE_ID = 1
+SITE_ID = None
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
