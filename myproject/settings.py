@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    # my apss
+    'app1',
 ]
 
 MIDDLEWARE = [
