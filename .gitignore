@@ -1,4 +1,4 @@
 .pyvenv/
 db.sqlite3
 **/__pycache__/
-
+mystaticfiles/
